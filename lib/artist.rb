@@ -21,6 +21,7 @@ class Artist
     song = Song.new(song)
     @songs_array << song
     song.artist = self
+    binding.pry
   end
   
   def self.song_count
