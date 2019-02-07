@@ -3,7 +3,7 @@ require "pry"
 class Artist
   attr_accessor :name, :artist
   
-  def initialize(name = nil)
+  def initialize(name)
     @name = name
     @songs_array = []
   end
