@@ -23,10 +23,4 @@ class  Author
     title.author = self
   end
     
-  end
-  
-  
-  
-  
-  
 end
