@@ -1,7 +1,7 @@
 require "pry"
 
 class Post 
-  attr_accessor :new_post, :author
+  attr_accessor :name, :author
   
   @@all = []
   
