@@ -5,7 +5,7 @@ class Post
   
   @@all = []
   
-  def initialize(name)
+  def initialize(title)
     @name = name
     @@all << self
   end
