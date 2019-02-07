@@ -1,3 +1,3 @@
 require "pry"
 
-class Author
+class  Author
