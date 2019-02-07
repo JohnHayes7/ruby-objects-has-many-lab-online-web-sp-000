@@ -6,8 +6,8 @@ class Post
   @@all = []
   
   def initialize(name)
-    @name = 
-    @@all << @new_post
+    @name = name
+    @@all << @name
   end
   
 end
