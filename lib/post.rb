@@ -8,5 +8,6 @@ class Post
   def initialize(new_post)
     @new_post = new_post
     @@all << @new_post
+  end
   
 end
