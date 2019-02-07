@@ -1,3 +1,5 @@
 require "pry"
 
-class Post
+class Post 
+  
+end
