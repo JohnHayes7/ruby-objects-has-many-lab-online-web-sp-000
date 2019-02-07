@@ -18,8 +18,8 @@ class Artist
     binding.pry
   end
   
-  def add_song_by_name(new_song)
-    new_song = Song.new(new_song)
+  def add_song_by_name(song)
+    #new_song = Song.new(new_song)
     #@songs_array << song
     #song.artist = self
   end
