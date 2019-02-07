@@ -1,6 +1,8 @@
 require "pry"
 
 class  Author 
-  attr_accessor :name
+  attr_accessor :name 
+  
+  def initialize
   
 end
