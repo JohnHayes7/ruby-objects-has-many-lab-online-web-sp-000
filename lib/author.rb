@@ -17,10 +17,10 @@ class  Author
     new_post.author = self
   end
   
-  def add_post_by_title(title)
-    title = Post.new
-    @posts << title
-    title.author = self
+  def add_post_by_title(new_post)
+    new_post = Post.new
+    @posts << new_post
+    new_post.author = self
   end
     
 end
