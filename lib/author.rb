@@ -13,6 +13,7 @@ class  Author
   end
   
   def add_post(name)
+    @posts
   
   
   
