@@ -3,9 +3,10 @@ require "pry"
 class Post 
   attr_accessor :new_post, :author
   
-  @all = []
+  @@all = []
   
   def initialize(new_post)
     @new_post = new_post
+    @@all << @new_post
   
 end
